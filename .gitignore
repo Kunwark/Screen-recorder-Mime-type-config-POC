@@ -1,0 +1,4 @@
+recordings/*
+/.idea
+/.vscode
+/node_modules/

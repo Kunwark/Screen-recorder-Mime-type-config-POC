@@ -1,7 +1,10 @@
 let videoElement;
 let chunks = [];
 export function initializeVideoElements(config = {}) {
-    const { videoDisplayId = 'videoDisplay' } = config;
+    const {
+        videoDisplayId = 'videoDisplay'
+    } = config;
+
     videoElement = document.getElementById(videoDisplayId);
 }
 export async function startCapture(displayMediaOptions) {
